@@ -24,7 +24,7 @@
                 <!-- Navigation links (hidden by default) -->
                 <div id="myLinks">
                     <ul >
-                        <li><a href="#work">Work</a></li>
+                        <li><a href="javascript:void(0);" onclick="scrollToSection('#work')" >Work</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#background">Background</a></li>
         
@@ -152,5 +152,16 @@
         menu.style.display = "block";
       }
     }
+    
+    
+    
+    
+    function scrollToSection(elementName) {
+    const element = document.querySelector(elementName);
+
+    element.scrolIntoView({
+         behaviour: smooth
+    })
+}
     </script>
     
