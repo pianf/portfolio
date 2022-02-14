@@ -573,13 +573,13 @@ p.big {
     }
 
     .work { 
-        max-width: 1200px;
+        max-width: 1080px;
         padding-top: calc(3 * var(--padd-main-h));
         margin: 0 auto;
         padding-bottom: 0px;
         display: flex;
         flex-direction: row;
-        gap: 40px;
+        gap: 76px;
     }
     
     .col1,.col2, .col3 {
@@ -595,7 +595,6 @@ p.big {
             display: flex;
         flex-direction: column;
         vertical-align: top;
-        gap: 76px;
     }
     
     
