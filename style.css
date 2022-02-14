@@ -578,7 +578,7 @@ p.big {
         margin: 0 auto;
         padding-bottom: 0px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 40px;
     }
     
@@ -592,7 +592,7 @@ p.big {
         vertical-align: top;
         padding-bottom: 0;
             display: flex;
-        flex-direction: row;
+        flex-direction: column;
         vertical-align: top;
         gap: 84px;
     }
