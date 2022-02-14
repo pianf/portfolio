@@ -624,8 +624,8 @@ p.big {
     }
 
     .thumbnail {
-        -webkit-box-shadow: 15px 15px 0px 0px var(--pink);
-                box-shadow: 15px 15px 0px 0px var(--pink);
+        -webkit-box-shadow: 24px 22px 0px 0px var(--pink);
+                box-shadow: 24px 22px 0px 0px var(--pink);
     }
 
     .skills ul {
