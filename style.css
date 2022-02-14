@@ -573,7 +573,7 @@ p.big {
     }
 
     .work { 
-        max-width: 1080px;
+        max-width: 1000px;
         padding-top: calc(3 * var(--padd-main-h));
         margin: 0 auto;
         padding-bottom: 0px;
