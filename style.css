@@ -579,7 +579,7 @@ p.big {
         padding-bottom: 0px;
         display: flex;
         flex-direction: row;
-        gap: 76px;
+        gap: 88px;
     }
     
     .col1,.col2, .col3 {
@@ -599,7 +599,7 @@ p.big {
     
     
     .card {
-        margin-bottom: calc(2 * var(--padd-main-h));
+        margin-bottom: var(--padd-main-v);
     }
     
     
