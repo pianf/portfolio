@@ -17,6 +17,10 @@ body {
     font-family: 'Titillium Web', 'Futura', sans-serif;
 }
 
+img {
+    display: block;
+}
+
 video {
     display: block;
 }
@@ -573,16 +577,23 @@ p.big {
         padding-top: calc(3 * var(--padd-main-h));
         margin: 0 auto;
         padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
     }
     
     .col1,.col2, .col3 {
-        width: 31%;
+        /*width: 31%;*/
         padding: 20px 0px 20px 40px;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
         display: inline-block;
         vertical-align: top;
         padding-bottom: 0;
+            display: flex;
+        flex-direction: row;
+        vertical-align: top;
+        gap: 84px;
     }
     
     
