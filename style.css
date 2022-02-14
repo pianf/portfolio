@@ -10,7 +10,7 @@
     --padd-main-h: 20px;
     --padd-main-v: 60px;
 }
-
+ 
 body {
     margin: 0;
     background-color: var(--purple);
